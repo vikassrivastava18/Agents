@@ -1,0 +1,20 @@
+{"id":"info_001","user_input":"What documents do I need to apply for a personal loan?","expected_intent":"info"}
+{"id":"info_002","user_input":"How can I reset my account password?","expected_intent":"info"}
+{"id":"info_003","user_input":"What are your support hours?","expected_intent":"info"}
+{"id":"info_004","user_input":"Where can I download my monthly statement?","expected_intent":"info"}
+{"id":"info_005","user_input":"Do you charge a fee for international transfers?","expected_intent":"info"}
+{"id":"info_006","user_input":"I would like to know how long a refund normally takes.","expected_intent":"info"}
+{"id":"info_007","user_input":"Can you explain the steps to update my billing address?","expected_intent":"info"}
+{"id":"info_008","user_input":"Is there a daily limit for card payments?","expected_intent":"info"}
+{"id":"info_009","user_input":"What is the difference between the basic and premium plans?","expected_intent":"info"}
+{"id":"info_010","user_input":"How do I add a new authorized user?","expected_intent":"info"}
+{"id":"complaint_001","user_input":"My card was charged twice for the same purchase.","expected_intent":"complaint"}
+{"id":"complaint_002","user_input":"The ATM kept my card and I need help getting it back.","expected_intent":"complaint"}
+{"id":"complaint_003","user_input":"I was promised a refund last week, but it still has not arrived.","expected_intent":"complaint"}
+{"id":"complaint_004","user_input":"Someone made a transaction on my account that I did not authorize.","expected_intent":"complaint"}
+{"id":"complaint_005","user_input":"Your service has been down since this morning and I cannot log in.","expected_intent":"complaint"}
+{"id":"complaint_006","user_input":"The fee on my latest statement is incorrect.","expected_intent":"complaint"}
+{"id":"complaint_007","user_input":"My transfer failed, but the money was still taken from my balance.","expected_intent":"complaint"}
+{"id":"complaint_008","user_input":"I have contacted support three times and nobody has resolved my issue.","expected_intent":"complaint"}
+{"id":"complaint_009","user_input":"The replacement card you sent me has not arrived.","expected_intent":"complaint"}
+{"id":"complaint_010","user_input":"I want to report that my account was locked without warning.","expected_intent":"complaint"}
