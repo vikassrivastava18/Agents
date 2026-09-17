@@ -1,0 +1,304 @@
+Saraswati Library — Knowledge Base
+Dataset status: Synthetic knowledge-base content created for RAG/vector-database development. Operational details such as membership prices, seating capacity, book inventory, policies, and staff names should be replaced with verified information before this dataset is used in a production customer-facing system.
+
+Location context: This dataset assumes Saraswati Library is a local study and reading facility in Lucknow, Uttar Pradesh. A real business listing for a Saraswati Library in Lucknow reports an address around Dwivedi Hospital, Railway Crossing, Roberts Lines, Lucknow, and lists regular operating hours. Those publicly listed facts should be treated separately from the synthetic information below.
+
+1. About Saraswati Library
+Saraswati Library is envisioned as a quiet community-oriented study and reading space in Lucknow, Uttar Pradesh. The library is intended primarily for students, competitive-examination candidates, researchers, working professionals, and readers who need a disciplined environment for focused study.
+
+2. Purpose of the Library
+The primary purpose of Saraswati Library is to provide members with a comfortable place where they can read, study, prepare for examinations, and work on academic material. The library emphasizes concentration, cleanliness, reasonable discipline, and a respectful atmosphere.
+
+3. Name of the Library
+The library is known as Saraswati Library. The name refers to Goddess Saraswati, traditionally associated in Indian culture with knowledge, learning, wisdom, music, and education. The name reflects the institution's general educational orientation.
+
+4. Type of Facility
+Saraswati Library can be considered a reading-room and study-library facility rather than only a conventional book-lending library. Members may primarily use the premises for individual study, reading, examination preparation, and academic work.
+
+5. Intended Users
+The library is designed for a broad group of learners. Typical users may include school students, college students, university students, UPSC aspirants, SSC candidates, banking-examination candidates, railway-examination candidates, teachers, researchers, and professionals pursuing additional qualifications.
+
+6. Study Environment
+The central feature of Saraswati Library is its quiet study environment. Members are expected to maintain low noise levels so that people sitting nearby can concentrate on their reading and preparation without unnecessary interruptions.
+
+7. Individual Study
+The facility is primarily designed around individual study. Members can bring their own textbooks, notebooks, reference materials, laptops, tablets, and stationery, subject to the library's usage rules and available facilities.
+
+8. Competitive Examination Preparation
+A significant portion of the expected membership consists of competitive-examination aspirants. Students preparing for government examinations may use the library for daily revision, mock-test practice, newspaper reading, current-affairs preparation, and long study sessions.
+
+9. Academic Preparation
+Students preparing for school, college, university, entrance examinations, and professional examinations can use the reading environment. The library can serve as an alternative to studying at home when a student needs a quieter and more structured setting.
+
+10. Reading Culture
+Saraswati Library aims to encourage a regular reading habit. Apart from examination preparation, users can spend time reading newspapers, magazines, educational books, general-interest material, and other permitted resources.
+
+11. Membership
+Membership is expected to be available to individuals who want regular access to the study facility. The exact membership process, eligibility requirements, fees, validity period, and documentation requirements should be confirmed directly with the library before being published as official information.
+
+12. Membership Registration
+A typical registration process may require the applicant's name, mobile number, identification details, photograph, and selected membership plan. These fields are examples for system design and should not be interpreted as verified Saraswati Library requirements.
+
+13. Membership Plans
+A library of this type may offer daily, weekly, or monthly access plans. Some facilities may also provide longer-duration memberships. Actual Saraswati Library pricing should be maintained separately in the production database and updated whenever the library changes its rates.
+
+14. Seat Allocation
+Study seats may be allocated to members depending on the library's operating model. A seat number or desk identifier can be associated with a member record to make occupancy and seat management easier.
+
+15. Reserved Seats
+If reserved seating is offered, a member may receive a specific desk for the duration of a membership plan. Reserved seating can be particularly useful for students who attend the library regularly and prefer consistency.
+
+16. Seat Availability
+Questions about available seats should be answered using the library's current occupancy system rather than static training data. A RAG application should ideally connect its seat-availability response to a live database if real-time availability is required.
+
+17. Daily Visitors
+The number of visitors can vary significantly depending on examination schedules, weekdays, weekends, holidays, and admission seasons. Therefore, daily visitor counts should not be treated as fixed information unless they are obtained from the library's actual records.
+
+18. Opening Hours
+Public business information currently lists a Saraswati Library in Lucknow with regular hours of approximately 7:00 AM to 9:00 PM. Because local-business hours can change, users should confirm current hours before making a visit.
+
+19. Holiday Schedule
+Holiday schedules may differ from normal operating hours. Saraswati Library may modify its schedule during major public holidays, maintenance periods, local events, or other special circumstances. The current schedule should always be verified before a planned visit.
+
+20. Early Morning Study
+Early morning hours can be useful for students who prefer beginning their preparation before regular college or work hours. A quiet morning session may also be suitable for revision, reading newspapers, or completing daily study targets.
+
+21. Evening Study
+Evening study sessions may be useful for students who attend school, college, coaching classes, or work during the daytime. The library environment is intended to provide an alternative study location during evening hours.
+
+22. Weekend Study
+Students may use weekends for longer study sessions, revision, mock tests, and planning for the upcoming week. Weekend occupancy can differ from weekday occupancy, particularly during examination seasons.
+
+23. Noise Policy
+Members are expected to maintain silence or very low speaking volume. Loud conversations, unnecessary discussions, music played without headphones, and disruptive behavior should be avoided.
+
+24. Mobile Phone Use
+Mobile phones should be kept on silent mode or an appropriately quiet notification setting. Members who need to make a long phone call should preferably move away from the main study area when permitted by the library's rules.
+
+25. Headphones
+Headphones may be useful when a member needs to listen to educational audio or recorded lectures. However, members should keep the volume at a level that does not disturb other users and should follow any library-specific headphone policy.
+
+26. Cleanliness
+Members are expected to keep their desks and surrounding areas clean. Food wrappers, paper waste, disposable cups, and other rubbish should be placed in designated waste bins.
+
+27. Food Policy
+Eating policies may vary between study libraries. A reasonable policy is to restrict full meals inside the reading area while permitting water and limited low-odor refreshments in designated areas.
+
+28. Drinking Water
+A study facility may provide drinking water for members. If drinking-water facilities are available, users should avoid wasting water and should keep the surrounding area clean.
+
+29. Furniture
+Comfortable desks and chairs are important components of a long-duration study environment. Furniture should be used carefully, and members should report broken or unstable chairs and desks to the library staff.
+
+30. Lighting
+Adequate lighting helps users read printed books and write notes comfortably. The reading area should ideally maintain sufficient illumination without creating excessive glare on notebooks, books, or computer screens.
+
+31. Electrical Outlets
+Study libraries often provide access to electrical outlets so members can charge laptops, tablets, and mobile devices. Users should avoid overloading sockets and should report damaged electrical fittings immediately.
+
+32. Internet Access
+If Wi-Fi is provided, it can support educational activities such as accessing online classes, digital libraries, examination portals, academic articles, and reference websites. The exact Wi-Fi availability and speed should be confirmed with the library.
+
+33. Internet Usage
+Internet access should primarily support educational, professional, or reasonable personal activities. Excessive bandwidth consumption, unauthorized downloads, harmful websites, or activities that interfere with other users may be restricted.
+
+34. Newspapers
+Newspapers can be valuable for competitive-examination candidates and readers interested in current affairs. A library may maintain Hindi and English newspapers depending on local demand.
+
+35. Current Affairs
+Current-affairs preparation is particularly relevant for candidates preparing for government and competitive examinations. Newspapers, magazines, online news sources, and examination-specific current-affairs material can complement the user's regular study plan.
+
+36. Magazines
+Educational and general-interest magazines may be kept in a common reading area. The actual list of magazines should be maintained as a separate inventory because subscriptions can change over time.
+
+37. Reference Books
+Reference books may cover subjects such as general knowledge, mathematics, reasoning, English, Hindi, science, history, geography, economics, computer awareness, and other examination-related topics.
+
+38. Book Collection
+The library's book collection should be represented in the production knowledge base through an inventory system. Each book can contain metadata such as title, author, publisher, edition, subject, language, shelf location, and availability status.
+
+39. Book Search
+Users should be able to ask for a book by title, author, subject, or keyword. A RAG system can retrieve relevant book records and then provide the shelf or availability information stored in the library database.
+
+40. Book Availability
+Book availability is dynamic. If a book is borrowed, reserved, misplaced, or undergoing maintenance, its status can change. Therefore, availability questions should preferably combine semantic retrieval with a live inventory lookup.
+
+41. Hindi Books
+Hindi-language resources may be particularly useful for local students and candidates preparing for Hindi-medium examinations. A Hindi collection can include literature, grammar, history, general knowledge, and examination-preparation material.
+
+42. English Books
+English-language resources can support students preparing for English-medium academic programs and competitive examinations. Materials may include textbooks, grammar books, vocabulary guides, reference books, and general reading.
+
+43. General Knowledge
+General-knowledge resources can help examination candidates revise facts related to history, geography, politics, economics, science, culture, sports, and current events.
+
+44. Mathematics Preparation
+Mathematics preparation often requires repeated practice rather than passive reading. Users may therefore benefit from books containing solved examples, practice exercises, previous examination questions, and mock tests.
+
+45. Reasoning Preparation
+Reasoning material can cover verbal reasoning, non-verbal reasoning, analytical reasoning, logical reasoning, coding-decoding, series, syllogisms, and related topics commonly found in competitive examinations.
+
+46. English Preparation
+English preparation resources may include grammar references, vocabulary books, comprehension exercises, error-detection exercises, sentence-improvement questions, and practice tests.
+
+47. Hindi Preparation
+Hindi preparation resources may include Hindi grammar, vocabulary, comprehension, literature, essay writing, and examination-oriented practice material. Exact examination relevance depends on the candidate's target examination.
+
+48. UPSC Preparation
+Users preparing for the Union Public Service Commission examinations may require a combination of standard textbooks, current affairs, newspapers, reference books, previous-year papers, and subject-specific resources.
+
+49. SSC Preparation
+SSC candidates may use the library for preparation in quantitative aptitude, reasoning, English, general awareness, and examination-specific topics. Previous-year papers and mock tests can be particularly useful.
+
+50. Banking Examination Preparation
+Banking-examination candidates may use resources covering quantitative aptitude, reasoning ability, English language, general awareness, banking awareness, and current affairs.
+
+51. Railway Examination Preparation
+Railway-examination candidates may require resources related to mathematics, reasoning, general science, general awareness, and current affairs. The exact syllabus depends on the examination and recruitment category.
+
+52. Study Planning
+A library cannot guarantee examination success, but a disciplined study environment can help users follow a consistent schedule. Members are encouraged to establish realistic daily and weekly goals.
+
+53. Time Management
+Students using the library for long periods should divide their sessions into manageable blocks. Planned breaks can help maintain concentration and reduce fatigue during extended study periods.
+
+54. Breaks
+Members may take short breaks according to the library's rules. During breaks, users should avoid conversations or activities that disturb other members who are continuing to study.
+
+55. Personal Belongings
+Users are responsible for their own bags, books, electronic devices, documents, and other personal belongings unless the library explicitly provides a storage or locker facility.
+
+56. Lockers
+If lockers are available, their use should be governed by a separate locker policy. The policy may specify allocation, duration, permitted items, security responsibilities, and procedures for lost keys or access credentials.
+
+57. Lost and Found
+Items found inside the premises should be handed over to library staff. Users who lose an item should provide identifying information such as approximate location, time, and description so staff can check the lost-and-found records.
+
+58. Security
+Security measures in a reading facility may include staff supervision, controlled entry, identification records, CCTV surveillance, or other appropriate systems. Actual security arrangements should be verified with the library.
+
+59. CCTV
+If CCTV cameras are installed, they may cover entrances, corridors, common areas, or other appropriate locations. Cameras should not be assumed to exist in private areas unless the library explicitly states otherwise.
+
+60. Privacy
+Member information should be handled responsibly. Personal details collected during registration should only be used for legitimate library operations and should be protected from unauthorized access.
+
+61. Member Identification
+The library may use a membership card, mobile number, QR code, or another identification mechanism. The exact identification method should be maintained in the operational system.
+
+62. Attendance
+An attendance record can help the library understand usage patterns and can also support membership validation. An automated system could record check-in and check-out times where such functionality is available.
+
+63. Check-In
+Members may be required to identify themselves when entering the premises. The exact check-in procedure depends on the library's operational system and should be communicated during registration.
+
+64. Check-Out
+A check-out process may be used to monitor occupancy and calculate real-time seat availability. If the facility does not use check-out tracking, the RAG application should not claim that it does.
+
+65. Staff
+Library staff may assist users with registration, seat allocation, general questions, facility-related issues, and library resources. Staff names should only be included in the production knowledge base after verification.
+
+66. Librarian Assistance
+A librarian or staff member may help users locate books, understand basic library procedures, and report facility problems. Staff assistance should not be represented as professional academic counseling unless the library explicitly provides that service.
+
+67. Customer Support
+Users who encounter problems with seating, membership, cleanliness, electricity, internet access, or other facilities should contact library staff through the officially provided communication channel.
+
+68. Complaints
+Complaints should ideally include the date, approximate time, issue description, and relevant seat or area number. Providing specific information makes it easier for staff to investigate and resolve the problem.
+
+69. Suggestions
+Members can provide suggestions regarding seating, lighting, books, newspapers, internet connectivity, cleanliness, and other facilities. Constructive feedback can help a local library improve its services.
+
+70. Membership Renewal
+Members whose membership is approaching expiry may need to renew it according to the library's rules. Renewal fees and validity periods should be retrieved from the current membership system rather than an old RAG document.
+
+71. Expired Membership
+An expired membership may result in the user's access being suspended until renewal. The exact grace period, if any, should be defined by the library's current membership policy.
+
+72. Cancellation
+Membership cancellation procedures may vary. A production knowledge base should contain the library's verified cancellation policy, including whether refunds are possible and under what conditions.
+
+73. Refunds
+Refund rules should never be invented by a customer-service chatbot. If the user asks about a refund, the system should retrieve the current official policy or direct the user to library staff when the policy is unavailable.
+
+74. Transfer of Membership
+Memberships may or may not be transferable between people. Unless an official policy confirms transferability, the system should advise users to contact the library before attempting to transfer a membership.
+
+75. Guest Access
+Guest access may be permitted in some study libraries and restricted in others. A chatbot should not assume that a visitor can use a seat without registration.
+
+76. Visitor Rules
+Visitors should follow the same basic expectations regarding cleanliness, silence, safety, and respect for other users. Temporary visitors may also need to comply with identification or registration requirements.
+
+77. Children
+Children may use a library depending on the facility's policy and available resources. If the library is primarily designed as a competitive-examination study center, parents should confirm whether children are permitted in the main study area.
+
+78. Accessibility
+Accessibility is an important consideration for any public-facing facility. Information about ramps, lifts, accessible washrooms, seating arrangements, and other accessibility features should be verified before being presented as factual.
+
+79. Washrooms
+If washrooms are available, members should keep them clean and report plumbing, lighting, water, or hygiene problems to the staff. Separate facilities may or may not be provided depending on the premises.
+
+80. Emergency Procedures
+In an emergency, members should follow staff instructions and move toward designated exits or safe areas. Emergency contact information and evacuation procedures should be displayed clearly inside the premises.
+
+81. Fire Safety
+A library should maintain appropriate fire-safety arrangements for its premises. Members should never block emergency exits, tamper with fire-safety equipment, or store combustible materials in prohibited locations.
+
+82. Power Failure
+Power interruptions can affect lighting, fans, air conditioning, internet connectivity, and charging points. Whether Saraswati Library provides backup power should be confirmed through current facility information.
+
+83. Air Conditioning
+A comfortable indoor temperature can improve long-duration study conditions. If air conditioning is available, users should avoid changing settings without permission and should report malfunctioning equipment to staff.
+
+84. Clean Study Desk
+Members should leave their desks ready for the next user when they finish. Books, stationery, food containers, and personal items should not be abandoned on shared furniture.
+
+85. Personal Study Material
+Members may bring personal study materials provided they do not damage library property or create unnecessary disturbance. Large collections of books or equipment may be subject to space restrictions.
+
+86. Laptops
+Laptops can be useful for online lectures, digital notes, research, mock tests, and document preparation. Users should use headphones where audio is necessary and should protect their devices from accidental damage.
+
+87. Mobile Devices
+Mobile phones and tablets can support educational activities but can also become distractions. Members are encouraged to use devices responsibly and maintain the quiet character of the study environment.
+
+88. Photography
+Photography inside a study facility should respect the privacy of other members. Users should avoid photographing people without permission and should follow any library-specific photography rules.
+
+89. Social Media
+Members may use social-media applications outside focused study periods, but excessive use should not interfere with their own preparation or disturb others. Library staff may restrict disruptive device use.
+
+90. Community
+A successful local library can become a small learning community where students share the same physical environment while following individual study goals. Saraswati Library's environment is intended to support that culture without turning the reading area into a social gathering space.
+
+91. Respect for Other Members
+Every member is expected to respect other users regardless of age, educational background, examination target, language, or profession. Personal disagreements should not interfere with the study environment.
+
+92. Prohibited Behavior
+Aggressive behavior, harassment, intentional property damage, theft, persistent disruption, or other unsafe conduct should not be permitted. Serious incidents should be handled according to the library's official rules and applicable law.
+
+93. Property Damage
+Members may be responsible for damage caused intentionally or through serious misuse of library property. The actual compensation procedure should be determined by the library's written policy.
+
+94. Book Handling
+Books should be handled carefully. Members should avoid folding pages, writing on books, removing pages, damaging covers, or exposing books to liquids.
+
+95. Returning Books
+If the library permits borrowing, books should be returned within the specified period and in the same general condition in which they were issued. Late-return rules should be retrieved from the current circulation policy.
+
+96. Digital RAG Knowledge
+For a RAG application, information about Saraswati Library should ideally be separated into categories such as facilities, timings, membership, rules, books, contact information, FAQs, and live operational data. This allows the retrieval system to identify the most relevant source for a user's question.
+
+97. Dynamic Information
+Information such as opening hours, seat availability, membership prices, staff availability, book inventory, and temporary closures can change. These fields should preferably come from structured databases or regularly updated documents rather than an old static embedding.
+
+98. RAG Answering Policy
+When the system cannot find an answer in the knowledge base, it should avoid inventing information. A suitable response is to explain that the information is currently unavailable and recommend contacting Saraswati Library through its verified official communication channel.
+
+99. Recommended Metadata
+Each knowledge-base document can contain metadata such as library_name, city, category, topic, document_type, source_type, last_verified, language, and status. For example, a document about membership can use the topic membership, while a document about operating hours can use the topic timings.
+
+100. Source Verification
+This dataset is intended as synthetic RAG-development material and should not be treated as an official Saraswati Library policy document. Before deploying a customer-facing chatbot, replace synthetic details with information verified directly from the library or its official channels. Real-world search results show that multiple libraries with similar Saraswati/Maa Saraswati names exist in Lucknow, so entity disambiguation is especially important for a production RAG system.
