@@ -6,7 +6,6 @@ from langgraph.types import interrupt
 from langgraph.checkpoint.memory import InMemorySaver
 
 from .utils import generate_ai_response, similarity_search
-
 from .models import Complain
 from django.contrib.auth.models import User
 
@@ -42,7 +41,6 @@ def classify_intent(state: AgentState):
     Respond with only one word: info, complaint, request
     """
     structured_llm = llm.with_structured_output(IntentClassification)
-
     result = structured_llm.invoke(prompt).content.strip().lower()
     state["intent"] = result
     return state
@@ -54,7 +52,6 @@ def info_tool(state: AgentState):
     response = generate_ai_response(query, context)
 
     state["response"] = response
-    print("Response: ", response)
     return state
 
 
@@ -62,14 +59,11 @@ def complaint_tool(state: AgentState):
     username = state["username"]
     user = User.objects.get(username=username)
     answer = interrupt(
-        # This message will be sent to the client
-        # as part of the interrupt information.
         "Could you please elaborate your problem, tell us when this happened?"
     )
     # Insert complain in the database 
     Complain.objects.create(complain=answer, user=user)
     state["response"] = "Sorry for the inconvenience, your complaint has been registered. We will address it soon."
-
     return state
 
 
@@ -95,7 +89,6 @@ def graph_builder():
             "complaint": "complaint"
         },
     )
-
     # End nodes
     builder.add_edge("info", END)
     builder.add_edge("complaint", END)
