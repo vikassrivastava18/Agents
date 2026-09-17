@@ -1,8 +1,4 @@
 from langchain_core.documents import Document
-from langchain_community.vectorstores import FAISS
-from langchain_openai import OpenAIEmbeddings
-
-embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
 documents = [
     Document(
@@ -72,20 +68,3 @@ documents = [
     ),
 ]
 
-def similarity_search(query):
-    # get the info chunks
-    chunks = documents
-
-    # Create in-memory vector store (FAISS)
-    vector_store = FAISS.from_documents(chunks, embeddings)
-    # perform similarity search with score
-    results = vector_store.similarity_search_with_score(query, k=1)
-
-    # unpack result
-    doc, dist = results[0]
-    context = doc.page_content
-
-    return {
-        "context": context,
-        "distance": float(dist)
-    }
