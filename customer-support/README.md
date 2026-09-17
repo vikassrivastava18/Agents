@@ -1,4 +1,4 @@
-The assignment is to build a workflow-aware AI customer query responder for BookLeaf Publishing using automation tools.
+BookLeaf Publishing is a New Delhi based publishing company. They want to automate the process of answering authors query reliably.
 
 The AI should understand natural-language questions such as “Is my book live yet?”, “When will I get my royalty?”, and “Where’s my author copy?” It should identify the author's relevant record from a Supabase-like database, retrieve information such as email, book title, submission date, live date, royalty status, ISBN, and add-on services, and generate an appropriate response using the available status/date information.
 
