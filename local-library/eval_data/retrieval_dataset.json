@@ -1,0 +1,14 @@
+[
+    {
+        "user_input": "what is your weekend policy for study?",
+        "expected_paragraph": 23
+    },
+    {
+        "user_input": "what time does the library open?",
+        "expected_paragraph": 5
+    },
+    {
+        "user_input": "can students use the library on weekends?",
+        "expected_paragraph": 23
+    }
+]
