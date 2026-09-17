@@ -1,0 +1,50 @@
+[
+  {
+    "user_input": "Can I renew my book?",
+    "expected_output": "info"
+  },
+  {
+    "user_input": "Please renew my book.",
+    "expected_output": "request"
+  },
+  {
+    "user_input": "Why can't I renew my book?",
+    "expected_output": "complaint"
+  },
+  {
+    "user_input": "Is it possible to reserve a book?",
+    "expected_output": "info"
+  },
+  {
+    "user_input": "Reserve this book for me.",
+    "expected_output": "request"
+  },
+  {
+    "user_input": "I tried to reserve this book but the system won't let me.",
+    "expected_output": "complaint"
+  },
+  {
+    "user_input": "How do I get a library card?",
+    "expected_output": "info"
+  },
+  {
+    "user_input": "I need a library card.",
+    "expected_output": "request"
+  },
+  {
+    "user_input": "My library card isn't being accepted.",
+    "expected_output": "complaint"
+  },
+  {
+    "user_input": "Can you tell me whether my membership is still active?",
+    "expected_output": "info"
+  },
+  {
+    "user_input": "Please renew my membership.",
+    "expected_output": "request"
+  },
+  {
+    "user_input": "My membership was renewed but my account still says expired.",
+    "expected_output": "complaint"
+  }
+]
