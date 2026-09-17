@@ -23,18 +23,27 @@ class AgentState(TypedDict):
     response: Optional[str]
     reteieved_docs: Optional[list]
 
+from pydantic import BaseModel
+from typing import Literal
+
+
+class IntentClassification(BaseModel):
+    intent: Literal["info", "request", "complaint"]
+
 
 def classify_intent(state: AgentState):
     prompt = f"""
-    Classify the user input info one of the two categories:
+    Classify the user input info one of the three categories:
     1. info
     2. complaint
+    3. request
 
     Input: {state['user_input']}
-    Respond with only one word: info or complaint
+    Respond with only one word: info, complaint, request
     """
-    result = llm.invoke(prompt).content.strip().lower()
-    print("Intent: ", result)
+    structured_llm = llm.with_structured_output(IntentClassification)
+
+    result = structured_llm.invoke(prompt).content.strip().lower()
     state["intent"] = result
     return state
 
