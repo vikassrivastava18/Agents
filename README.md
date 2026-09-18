@@ -8,7 +8,7 @@ Notes and code snippets on AI Agents.
 - Evaluation 
 - RAG
 
-### LangGraph concepts
+### LangGraph-Concepts
 Important concepts related to LangGraph is covered (Source - LangChain Academy)
 
 ### Local-library
