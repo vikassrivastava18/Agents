@@ -1,7 +1,7 @@
 Saraswati Library — Knowledge Base
 Dataset status: Synthetic knowledge-base content created for RAG/vector-database development. Operational details such as membership prices, seating capacity, book inventory, policies, and staff names should be replaced with verified information before this dataset is used in a production customer-facing system.
 
-Location context: This dataset assumes Saraswati Library is a local study and reading facility in Lucknow, Uttar Pradesh. A real business listing for a Saraswati Library in Lucknow reports an address around Dwivedi Hospital, Railway Crossing, Roberts Lines, Lucknow, and lists regular operating hours. Those publicly listed facts should be treated separately from the synthetic information below.
+Saraswati Library is a local study and reading facility in Lucknow, Uttar Pradesh near Dwivedi Hospital, Railway Crossing, Roberts Lines, Lucknow, and lists regular operating hours. 
 
 1. About Saraswati Library
 Saraswati Library is envisioned as a quiet community-oriented study and reading space in Lucknow, Uttar Pradesh. The library is intended primarily for students, competitive-examination candidates, researchers, working professionals, and readers who need a disciplined environment for focused study.
