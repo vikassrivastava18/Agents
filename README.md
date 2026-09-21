@@ -1,6 +1,10 @@
 # Agents
 Notes and code snippets on AI Agents.
 
+## Development environment
+Python 3.12
+Run `pip install -r requirements.txt`
+
 ## `Topics covered`
 - React pattern
 - Grounding
@@ -22,3 +26,4 @@ Implements two workflows for helping students learn important concepts.
 
 ### `code-assistant`
 Implements agentic code generation with AlphaCodium approach.
+
