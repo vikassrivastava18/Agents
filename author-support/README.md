@@ -1,5 +1,9 @@
-BookLeaf Publishing is a New Delhi based publishing company. They want to automate the process of answering authors query reliably.
+# BookLeaf Publishing
 
-- Reply to user's database qeries using their pend royalty. This is implemented using Tool-call.
-- Integrate their knowledge base to answer FAQ's like "What is your ISBN policy?"
-- Ability to register complaint 
+BookLeaf Publishing is a New Delhi-based book publishing company. The team is overwhelmed by the number of queries authors ask on a daily basis. These queries can be grouped into two main categories:
+
+- FAQs, such as "What is your ISBN policy?" or "How do I upload my book cover?" These questions can be answered using the company's knowledge base.
+- Queries related to authors' books, such as "What is my pending royalty?" or "When is my book getting published?"
+
+These queries can be answered by building an agentic RAG system that retrieves information from the knowledge base and can also make database queries through tool calling. Most queries are resolved instantly through this workflow, and when a query cannot be resolved, an admin can intervene and resolve it.
+
