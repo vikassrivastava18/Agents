@@ -5,4 +5,4 @@
 - Build a dialogue workflow where student gets their doubts cleared and then are asked to answer quizzes. Use structured schemas for quizzes and add HIT(human in the loop) for user confimation on concepts clarity.
 
 ## Web application
-https://github.com/vikassrivastava18/Shreyas
+[https://github.com/vikassrivastava18/Shreyas](https://github.com/vikassrivastava18/WistechOpen)
