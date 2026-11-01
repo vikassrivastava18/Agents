@@ -1,5 +1,5 @@
 # Agents
-Notes and code snippets on AI Agents.
+Notes and code snippets on AI Agents, RAG.
 
 ## Development environment
 Python 3.12
@@ -13,6 +13,9 @@ Run `pip install -r requirements.txt`
 - Evaluation 
 - RAG
 - Grounding
+
+
+## Case study
 
 ### `LangGraph-Concepts`
 Important concepts related to LangGraph is covered (Source - LangChain Academy)
